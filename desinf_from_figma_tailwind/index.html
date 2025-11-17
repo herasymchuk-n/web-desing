@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meet New People (Tailwind)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .dot-active-bg {
+            background-color: #ff6f61;
+        }
+
+        .dot-inactive-bg {
+            background-color: #ffd1d1;
+        }
+    </style>
+</head>
+
+<body class="bg-[#ffecec] flex justify-center items-center h-screen w-screen">
+
+    <div
+        class="w-full max-w-lg min-w-[400px] h-screen bg-[#fff0f0] box-border p-10 flex flex-col justify-between rounded-none md:rounded-xl">
+
+        <div class="flex flex-col items-center text-center">
+
+            <div class="w-4/5 max-w-xs mt-12 mb-12">
+                <img src="img/illustration.svg" alt="Meet New People Illustration" class="w-full" />
+            </div>
+
+            <h1 class="bg-[#ff6f61] text-white py-2 px-6 rounded-md text-base font-semibold mb-5">
+                Meet New People
+            </h1>
+
+            <p class="text-xs leading-4 text-[#a5a6a4] text-center mx-5 flex-1">
+                Select the Text tool (T) and add a new text element. Change the font style to Regular, lower the size to
+                10 and the letter spacing to 0%. Increase the line height to 14, and then add some paragraphs as shown
+                in the following image. Don't forget to change the text color to #A5A6A4.
+            </p>
+        </div>
+
+        <footer class="flex justify-between items-center pt-5 pb-8">
+
+            <button
+                class="border-none py-2 px-6 rounded-lg text-xs font-semibold cursor-pointer bg-gray-200 text-gray-600">
+                SKIP
+            </button>
+
+            <div class="flex space-x-1.5">
+                <span class="dot-active-bg w-2 h-2 rounded-sm"></span>
+                <span class="dot-inactive-bg w-2 h-2 rounded-sm"></span>
+                <span class="dot-inactive-bg w-2 h-2 rounded-sm"></span>
+            </div>
+            <a href="register.html"
+                class="inline-block no-underline border-none py-2 px-6 rounded-lg text-xs font-semibold cursor-pointer bg-[#ff6f61] text-white">
+                NEXT
+            </a>
+        </footer>
+
+    </div>
+</body>
+
+</html>

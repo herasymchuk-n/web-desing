@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fated - Register (Tailwind)</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .logo-fated {
+            font-family: sans-serif;
+            letter-spacing: 2px;
+        }
+        .logo-heart {
+            font-size: 50px;
+            line-height: 1;
+        }
+    </style>
+</head>
+
+<body class="bg-[#ff6f61] flex justify-center items-center h-screen w-screen overflow-auto">
+
+    <div class="w-full max-w-lg p-8 md:p-10 flex flex-col items-center text-center gap-5">
+
+        <div class="mb-4">
+            <div
+                class="logo-heart bg-white text-[#ff6f61] rounded-full w-24 h-24 flex justify-center items-center mb-2 font-bold">
+                ❤️
+            </div>
+            <h1 class="logo-fated text-white text-4xl font-extrabold m-0">FATED</h1>
+        </div>
+        <div class="flex w-full max-w-xs mb-6">
+            <button
+                class="flex-1 py-2 border-2 border-white bg-[#ff857a] text-white text-sm font-semibold cursor-pointer rounded-l-lg border-r-0">
+                LOGIN
+            </button>
+            <button
+                class="flex-1 py-2 border-2 border-white bg-white text-[#ff6f61] text-sm font-semibold cursor-pointer rounded-r-lg">
+                REGISTER
+            </button>
+        </div>
+
+        <form class="flex flex-col w-full max-w-sm gap-3">
+            <input type="text" placeholder="user name"
+                class="p-4 border-none rounded-lg text-sm text-center text-gray-700 placeholder-gray-400" />
+            <input type="password" placeholder="password"
+                class="p-4 border-none rounded-lg text-sm text-center text-gray-700 placeholder-gray-400" />
+            <input type="email" placeholder="email"
+                class="p-4 border-none rounded-lg text-sm text-center text-gray-700 placeholder-gray-400" />
+
+            <p class="text-white text-xs font-medium ml-auto mt-1 mb-2">FORGOT PASSWORD?</p>
+            <button type="submit"
+                class="p-4 border-none rounded-lg bg-white text-[#ff6f61] text-base font-bold cursor-pointer mt-1">
+                REGISTER
+            </button>
+        </form>
+        <p class="text-white text-sm font-medium mt-4">
+            ALREADY HAVE AN ACCOUNT?
+            <a href="#" class="text-white font-bold no-underline hover:underline">LOGIN</a>
+        </p>
+    </div>
+</body>
+
+</html>

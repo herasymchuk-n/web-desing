@@ -65,7 +65,7 @@ const skip = () => {
         </p>
       </div>
 
-      <footer class="flex justify-between items-center pt-5 pb-8 mt-auto">
+      <footer class="flex justify-between items-center pt-20 pb-8 mt-auto">
         <button 
           @click="skip" 
           class="py-2 px-6 rounded-lg text-xs font-semibold bg-gray-200 text-gray-600 hover:bg-gray-300 transition cursor-pointer border-none"
